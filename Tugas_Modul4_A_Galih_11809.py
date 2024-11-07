@@ -46,7 +46,6 @@ if uploaded_file is not None:
     st.markdown("<h1 style='text-align: center;'>Unsupervised Learning - Galih</h1>", unsafe_allow_html=True)
     st.dataframe(input_data)
 
-    model_directory = r'D:\PMDPM\Unsupervised Learning (Praktek)\Unsupervised Learning (Praktek)\Tugas4_A_11809'
     model_path = {
         "AGG_model": os.path.join(model_directory, r'AGG_model.pkl'),
         "KMeans_model": os.path.join(model_directory, r'KMeans_model.pkl'),
